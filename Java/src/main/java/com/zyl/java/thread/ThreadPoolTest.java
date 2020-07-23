@@ -1,15 +1,12 @@
 package com.zyl.java.thread;
 
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 /**
  * @Author: zyl4869
  * @CreateDate: 2020/7/22$ 22:11$
- *
- *线程池简单demo类
+ * <p>
+ * 线程池简单demo类
  */
 public class ThreadPoolTest {
     public static void main(String[] args) throws Exception {
@@ -26,4 +23,6 @@ public class ThreadPoolTest {
 
         executorService.shutdown();
     }
+
+
 }

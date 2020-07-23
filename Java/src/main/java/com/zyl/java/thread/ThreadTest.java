@@ -6,12 +6,12 @@ package com.zyl.java.thread;
  * 线程demo类
  */
 public class ThreadTest {
-        public static void main(String[] args) throws Exception {
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    System.out.println("线程运行中");
-                }
-            }).start();
-        }
+    public static void main(String[] args) throws Exception {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("线程运行中");
+            }
+        }).start();
     }
+}
