@@ -23,6 +23,12 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+      <dependency>
+          <groupId>org.apache.hive</groupId>
+          <artifactId>hive-exec</artifactId>
+          <version>3.1.2</version>
+      </dependency>
   </dependencies>
 
 </project>
